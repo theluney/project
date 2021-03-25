@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>QazNews</title>
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Roboto:400,500&amp;subset=cyrillic"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.formstyler.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">  
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="container">
+        <div class="header__content-inner">
+          <div class="header__logo">
+            <a href="#">
+              <h1 class="logo">Qaz<span>News</span></h1>
+            </a>
+          </div>
+          <nav class="menu" id="menu">
+            <div class="header__btn-menu">
+              <span class="icon-bars"></span>
+            </div>
+            <ul>
+              <li><a href="#" id="main" onclick="scrollTopMain()">Сотрудничество</a></li>
+              <li><a href="#" id="news" onclick="scrollTopNews()">Новости</a></li>
+              <li><a href="#" id="interview" onclick="scrollTopInter()">Интервью</a></li>
+              <li><a href="#" id="comments" onclick="scrollTopComments()">Мнения</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="slider">
+    <div class="container">
+      <div class="slider__inner">
+        <div class="slider__item">
+          <div class="slider__item-content">
+            <div class="slider__title">
+              Генсек ООН обвинил ряд стран в невыполнении рекомендаций ВОЗ по борьбе с Covid-19
+            </div>
+            <div class="slider__text">
+              Последствия пандемии будут ощущаться десятилетия, отметил Антониу Гутерриш.
+            </div>
+            <a data-src="#modal" href="https://informburo.kz/novosti/gensek-oon-obvinil-ryad-stran-v-nevypolnenii-rekomendaciy-voz-po-borbe-s-covid-19.html" target="_blank" class="slider__btn default-btn">
+              Подробнее
+            </a>
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item-content">
+            <div class="slider__title">
+              ОПЕК+ согласовал повышение добычи нефти с января 2021 года. Казахстан поддержал решение
+            </div>
+            <div class="slider__text">
+              Для Казахстана уровень обязательств в январе 2021 года составит 1,417 млн баррелей в сутки.
+            </div>
+            <a data-src="#modal" href="https://informburo.kz/novosti/opek-soglasoval-povyshenie-dobychi-nefti-s-yanvarya-2021-goda-kazahstan-podderzhal-konsensus-v-soglashenii-114948.html" target="_blank" class="slider__btn default-btn">
+              Подробнее
+            </a>
+          </div>
+        </div>
+        <div class="slider__item">
+          <div class="slider__item-content">
+            <div class="slider__title">
+              Парламент Молдовы одобрил вывод главной спецслужбы страны из подчинения президенту
+            </div>
+            <div class="slider__text">
+              Полное прекращение существования юридического лица с сохранением легальности всей предыдущей деятельности.
+            </div>
+            <a data-fancybox data-src="#modal" href="https://informburo.kz/novosti/parlament-moldovy-odobril-vyvod-glavnoy-specsluzhby-strany-iz-podchineniya-prezidenta-.html" target="_blank" class="slider__btn default-btn">
+              Подробнее
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="news">
+    <div class="container">
+      <div class="news__top">
+        <div class="news__title-box">
+          <div class="news__title">
+            Новости
+          </div>
+          <div class="news__text">
+            Центр деловой информации qaznews.kz — информационное агентство, информирующее о событиях в экономике, бизнесе и финансах в Казахстане и за рубежом. 
+          </div>
+        </div>
+        <div class="news__btn">
+          <a href="news.html">
+            Открыть все новости
+          </a>
+        </div>
+      </div>
+      <div class="comments__title" style="text-align:center">
+          Мнения
+      </div>
+      <div class="news__inner">
+        <div class="news__slider">
+          <div class="news__slider-inner">
+            <div class="news__slider-item">
+              <div class="news__slider-title">
+                Институты развития: мода или приоритет
+              </div>
+              <div class="news__slider-text">
+                На определенном этапе термин «институт развития» стал весьма модным в России. До нынешней реформы в числе таких институтов даже федерального уровня называли более 30 организаций. Здесь и поддержка инноваций, и развитие малого и среднего бизнеса, и содействие экспорту, и региональное развитие. Возможно, на определенном этапе возникло ложное ощущение, что институты развития способны решить все проблемы, которые есть в экономике. Однако действительность оказалась скорее разочаровывающей, особенно в условиях навеса ожиданий и обещаний.
+              </div>
+              <div class="news__slider-author">
+                Юрий Симачев, директор Центра исследований структурной политики НИУ ВШЭ
+              </div>
+            </div>
+            <div class="news__slider-item">
+              <div class="news__slider-title">
+                Банкротство и ликвидация предприятия в Украине
+              </div>
+              <div class="news__slider-text">
+                Государственный бюджет — концентрированное выражение экономической политики, он должен дать ответы на вызовы, стоящие перед обществом и государством. Это тем более важно сейчас, когда мир столкнулся с тяжелым и беспрецедентным за последние сто лет кризисом, имеющим в основе неэкономические предпосылки. На его фоне быстро формируются контуры и механизмы будущего общества и будущей экономики.
+              </div>
+              <div class="news__slider-author">
+                Владимир Мау, ректор РАНХиГС 
+              </div>
+            </div>
+            <div class="news__slider-item">
+              <div class="news__slider-title">
+                Банкротство и ликвидация предприятия в Украине
+              </div>
+              <div class="news__slider-text">
+                «На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих
+                специализации в отдельных областях права. На сегодняшний день, коллектив компании объединяет
+                высокопрофессиональных экспертов имеющих специализации в отдельных областях права. На сегодняшний день,
+                коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в отдельных
+                областях права...»
+              </div>
+              <div class="news__slider-author">
+                Андрей Ворошилов, генеральный директор компании Bankom
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="news__items">
+          <a href="#" class="news__blog">
+            <div class="news__images">
+              <img src="img/news-1.jpg" alt="" class="news_img">
+              <div class="news__date">03.04</div>
+            </div>
+            <div class="news__blog-title">
+              Главные новости
+            </div>
+            <div class="news__blog-text">
+              На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в
+              отдельных областях права...»
+            </div>
+          </a>
+          <a href="#" class="news__blog">
+            <div class="news__images">
+              <img src="img/news-2.jpg" alt="" class="news_img2">
+              <div class="news__date">03.04</div>
+            </div>
+            <div class="news__blog-title">
+              Главные новости
+            </div>
+            <div class="news__blog-text">
+              На сегодняшний день, коллектив компании объединяет высокопрофессиональных экспертов имеющих специализации в
+              отдельных областях права...»
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="comments">
+    <div class="container">
+      <div class="comments__top">
+        <div class="comments__title-box">
+          <div class="comments__title">
+            Интервью
+          </div>
+          <div class="comments__text">
+            Интервью с известными личностями Казахстана и мира 
+          </div>
+        </div>
+        <div class="comments__btn">
+          <a href="comments.html">
+            Показать все интервью
+          </a>
+        </div>
+      </div>
+      <div class="comments__items">
+        <div class="comments__item">
+          <img src="img/interview/inter1.jpg" style="max-width:100%" alt="">
+          <div class="comments__item-title">
+            Айнур Карбозова
+          </div>
+          <div class="comments__item-text">
+            Из-за пандемии 180 стипендиатов программы "Болашак" вернулись в Казахстан
+          </div>
+          <div class="comments__item-btn">
+            <a class="comments__item-link" href="https://informburo.kz/interview/aynur-karbozova-iz-za-pandemii-180-stipendiatov-programmy-bolashak-vernulis-v-kazahstan.html">Подробнее</a>
+          </div>
+        </div>
+        <div class="comments__item">
+          <img src="img/interview/inter2.jpg" style="max-width:100%" alt="">
+          <div class="comments__item-title">
+            Салтанат Ташимова
+          </div>
+          <div class="comments__item-text">
+            Экоактивист рассказала, почему некоторые алматинцы не согласны с проектом дизайнера Нурлана Туреханова по преобразованию исторического центра Алматы.
+          </div>
+          <div class="comments__item-btn">
+            <a class="comments__item-link" href="https://informburo.kz/interview/saltanat-tashimova-o-rekonstrukcii-starogo-centra-almaty-akimat-lobbiruet-proekt-turehanova.html">Подробнее</a>
+          </div>
+        </div>
+        <div class="comments__item">
+          <img src="img/interview/inter3.jpg" style="max-width:100%" alt="">
+          <div class="comments__item-title">
+            Жанай Аканов
+          </div>
+          <div class="comments__item-text">
+            За время пандемии в Алматы около 9% новых случаев заболеваемости диабетом напрямую связано с Covid-19.
+          </div>
+          <div class="comments__item-btn">
+            <a class="comments__item-link" href="https://informburo.kz/interview/endokrinolog-zhanay-akanov-koronavirus-mozhet-vyzvat-saharnyy-diabet.html">Подробнее</a>
+          </div>
+        </div>
+        <div class="comments__item">
+          <img src="img/interview/inter4.jpg" style="max-width:100%" alt="">
+          <div class="comments__item-title">
+            Александр Недовесов и Андрей Голубев
+          </div>
+          <div class="comments__item-text">
+            Казахстанские теннисисты Александр Недовесов и Андрей Голубев одержали победу в парном турнире АТР Challenger в Орландо (США). В финале они выиграли у американцев Джексона Уитроу и Митчелла Крюгера в двух сетах со счётом 7:5, 4:6. За час и 14 минут спортсмены на двоих забили четыре эйса и отыграли два из трёх брейк-поинтов. О том, как прошёл турнир и какой матч был самый сложный, теннисисты рассказали в интервью Informburo.kz.
+          </div>
+          <div class="comments__item-btn">
+            <a class="comments__item-link" href="https://informburo.kz/interview/tennisisty-golubev-i-nedovesov-o-pobede-v-turnire-v-orlando-vsyo-moglo-pomenyatsya-v-lyuboy-moment.html">Подробнее</a>
+          </div>
+        </div>
+        <div class="comments__item">
+          <img src="img/interview/inter5.jpg" style="max-width:100%" alt="">
+          <div class="comments__item-title">
+            Владимир Курилов
+          </div>
+          <div class="comments__item-text">
+            Владимир Константинович – очень приятный, живой, эмоциональный собеседник. Говорит просто о сложном и понятно о наболевшем. Размышляет. О творчестве, о жизни, о церкви, об искусстве.
+          </div>
+          <div class="comments__item-btn">
+            <a class="comments__item-link" href="https://informburo.kz/interview/ikonopisec-aleksandro-nevskogo-sobora-vladimir-kurilov-lyuboy-hudozhnik-zavisit-ot-soczakaza.html">Подробнее</a>
+          </div>
+        </div>
+        <div class="comments__item">
+          <img src="img/interview/inter6.jpg" style="max-width:100%" alt="">
+          <div class="comments__item-title">
+            Нурлан Туреханов
+          </div>
+          <div class="comments__item-text">
+            Дизайнер и архитектор ответил на претензии горожан, выступивших против его идеи преобразования исторического центра Алматы.
+          </div>
+          <div class="comments__item-btn">
+            <a class="comments__item-link" href="https://informburo.kz/interview/nurlan-turehanov-pochemu-to-vse-vdrug-reshili-chto-horosho-razbirayutsya-v-dizayne-i-arhitekture.html">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="form">
+    <div class="container">
+      <div class="form__inner">
+        <div class="form__content">
+          <div class="form__title-box">
+            <div class="form__title">
+              Оставить свою новость 
+            </div>
+            <div class="form__text">
+              Если у вас есть новость можете написать нам и наши операторы с вами свяжутся.
+            </div>
+          </div>
+          <div class="form__box">
+            <form>
+              <div class="form__box-inner">
+                <div class="form__box-left">
+                  <label>
+                    E-mail
+                    <input type="text">
+                  </label>
+                  <label>
+                    Контактный телефон
+                    <input type="text">
+                  </label>
+                  <label>
+                    ФИО
+                    <input type="text">
+                  </label>
+                  <label>
+                    Тема новости
+                    <select>
+                      <option>Offtop</option>
+                      <option>Политика</option>
+                      <option>Медиа</option>
+                      <option>Спорт</option>
+                    </select>
+                  </label>
+                </div>
+                <div class="form__box-right">
+                  <label>
+                    Сообщение
+                    <textarea></textarea>
+                  </label>
+                  <button class="default-btn" type="submit">Отправить</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <div class="header__logo footer">
+              <a href="#">
+                <h1 class="logo">Qaz<span>News</span></h1>
+              </a>
+            </div>
+            <div class="footer__text">
+              qaznews.kz - главные новости Казахстана, России и мира о бизнесе, экономике, происшествиях, спорте.
+            </div>
+            <ul class="footer__list">
+              <li><a class="footer__phone" href="tel:87471938020">+7 747 193 8020</a></li>
+              <li><a href="email:qaznews@news.kz">qaznews@news.kz</a></li>
+              <li><a class="footer__adress" href="#">Каскелен, ул. Абылай хана, 1/1</a></li>
+            </ul>
+          </div>
+          <div class="footer__map">
+            <iframe height="250px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=sdu%20almaty&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near" aria-label="sdu almaty"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer> 
+
+  <div id="modal">
+    <form>
+      <input type="text" placeholder="Ваше имя">
+      <input type="text" placeholder="Ваш телефон">
+      <input type="submit" value="Отправить">
+    </form>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.formstyler.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
